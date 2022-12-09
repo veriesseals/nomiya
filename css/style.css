@@ -1,0 +1,44 @@
+* {
+    /* outline: 1px dotted red; */
+    box-sizing: border-box;
+}
+
+:root {
+    --mainFont: Calibri, sans-serif;
+    --secondaryFont: 'Arial Narrow', sans-serif;
+    --primColor: #d0e7f9;
+}
+
+body {
+    padding-top: 40px;
+}
+
+.nav-button {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: var(--mainFont);
+
+}
+
+.nav-button:hover {
+    color:white;
+}
+
+.top-icons{
+    text-align: right;
+}
+
+.logo {
+    text-align: center;
+}
+
+main {
+    padding-bottom: 50px;
+    background-color: var(--primColor);
+}
+
+.main-page h2{
+    padding-top: 40px;
+}
